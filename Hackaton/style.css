@@ -195,3 +195,17 @@
   .sticky .navbar {
     padding: 10px 0; }
 
+
+.reg_btn {
+	width: 360px;
+	height: 70px;
+	border-radius: 23px;
+	font-size: 26px;
+	transition: 1s;
+}
+
+.reg_btn:hover {
+	background: gray;
+	border-radius: 43px;
+	font-size: 32px;
+}
