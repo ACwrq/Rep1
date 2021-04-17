@@ -79,6 +79,16 @@
 .course_size {
 	width: 420px;
 	height: 582px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 31px
+
+}
+
+.news_size {
+	width: 420px;
+	height: 582px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 37px
 
 }
 
