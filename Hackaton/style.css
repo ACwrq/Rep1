@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src:  url('Ubuntu.ttf');
+       
+}
+
+@font-face {
+  font-family: 'UbuntuB';
+  src:  url('UbuntuB.ttf');
+       
+}
+
+@font-face {
+  font-family: 'Balsamiq';
+  src:  url('BalsamiqSans.ttf');
+       
+}
+
+@font-face {
+  font-family: 'UbuntuI';
+  src:  url('UbuntuI.ttf');
+       
+}
+
+.cntr {
+	text-align: center;
+
+}
+
+.no_underline {
+	text-decoration: none;
+}
+
+.header_txt {
+	font-size: 25px;
+	color: black;
+
+}
+
+.header_txt:hover {
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.clr_black {
+	color: black;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.abs {
+	position: absolute;
+
+}
+
+.header_h1 {
+	font-family: 'Balsamiq';
+	padding-left: 80px;
+	font-size: 30px;
+	padding-top: 25px;
+}
+
+.header_h1:hover {
+	cursor: pointer;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.course_size {
+	width: 420px;
+	height: 582px;
+
+}
+
+.course_bg {
+	background-image: url('https://i.imgur.com/hKT31Gk.png');
+	background-size: 100% 100%;
+}
+
+.balsamiq {
+	font-family: Balsamiq;
+}
+
+.ubuntu {
+	font-family: Ubuntu;
+}
+
+.ubuntuI {
+	font-family: UbuntuI
+}
+
+
+.txt10 {
+  font-family: Ubuntu;
+  color: black;
+  font-size: 18px;
+
+}
+
+.footer_txt {
+	width: 266.5px;
+	height: 450px;
+}
