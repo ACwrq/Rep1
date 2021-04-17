@@ -1,18 +1,7 @@
-(function () {
-
-	"use strict";
-
-	//===== Prealoder
-
-	window.onload = function () {
-		window.setTimeout(fadeout, 500);
-	}
-
-	function fadeout() {
-		document.querySelector('.preloader').style.opacity = '0';
-		document.querySelector('.preloader').style.display = 'none';
-	}
-
+	var script = document.createElement('script');
+	script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
+	script.type = 'text/javascript';
+	document.getElementsByTagName('head')[0].appendChild(script);
 
 	/*=====================================
 	Sticky
@@ -55,23 +44,3 @@
 
 
 
-var navLinks = document.querySelectorAll(".navbar-nav .nav-item a");
-
-navLinks.forEach(function (navLink) {
-	navLink.addEventListener("click", function (event) {
-		event.target.parentNode.childNodes.forEach(function (node) {
-			if (!node.isEqualNode(event.target) && node.classList) {
-				node.classList.toggle("show");
-			}
-		});
-	});
-});
-
-	navLinks.forEach(e =>
-		e.addEventListener('click', () => {
-			e.classList.toggle('show');
-		})
-	)
-
-
-})();
