@@ -85,7 +85,7 @@ html {
 .course_size {
 	width: 420px;
 	height: 582px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 11px rgba(0,0,0,0.1);
 	border-radius: 31px
 
 }
@@ -93,7 +93,7 @@ html {
 .news_size {
 	width: 420px;
 	height: 582px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 11px rgba(0,0,0,0.1);
 	border-radius: 37px
 
 }
@@ -113,6 +113,14 @@ html {
 
 .ubuntuI {
 	font-family: UbuntuI
+}
+
+.ubuntuB {
+	font-family: UbuntuB
+}
+
+.d-none {
+	display: none;
 }
 
 
